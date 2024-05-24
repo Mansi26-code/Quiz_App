@@ -1,0 +1,64 @@
+body {
+    /*
+    * Created with https://www.css-gradient.com
+    * Gradient link: https://www.css-gradient.com/?c1=374d82&c2=1f2066&gt=r&gd=dtt
+    */
+    background: #374D82;
+    background: radial-gradient(at center top, #374D82, #1F2066);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main {
+    border: 2px solid #5c6bc0; /* Indigo border */
+    background-color: #fc466b; /* White background */
+    margin-top: 50px; /* Adjusted margin top */
+    display: flex; /* Use flexbox for vertical alignment */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Soft shadow */
+}
+
+h1 {
+    font-size: 100px;
+    font-family: cursive;
+    position: relative; /* Required for absolute positioning */
+    animation: fadeIn 2s ease forwards, moveIn 2s ease forwards;
+    margin-left: 10px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes moveIn {
+    from {
+        transform: translateY(-100px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+button {
+    height: 60px;
+    width: 140px;
+    background-color: #000000;
+    color: aliceblue;
+    border-radius: 20px;
+    margin-top: 20px; /* Adjusted margin top */
+    text-align: center;
+    font-size: 30px;
+    border: 2px solid black;
+    margin-left: 400px;
+}

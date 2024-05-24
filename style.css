@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background: #374D82;
+    background: radial-gradient(at center top, #374D82, #1F2066);
+    
+}
+
+.app {
+    background-color: rgb(220, 202, 169);
+    
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+    height: 400px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.margin {
+    height: 1px;
+    width: 100%;
+    border: 3px solid black;
+}
+
+#answer-buttons {
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+}
+
+.btn {
+    margin-top: 10px;
+    width: 500px;
+    height: 40px;
+    border: 1px solid #333; /* Dark grey border for better contrast */
+    border-radius: 20px;
+    transition: 0.3s;
+    background-color: #f9f9f9; /* Very light grey background */
+}
+
+.btn:hover {
+    height: 42px;
+    width: 502px;
+    color: white;
+    background-color: rgb(50, 50, 130); /* Slightly lighter shade of blue */
+}
+
+.btn:active {
+    height: 41px;
+    width: 503px;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5); /* Darker grey shadow */
+}
+
+.next-btn button {
+    margin-top: 20px;
+    width: 90px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(16, 16, 63);
+    color: white;
+}
